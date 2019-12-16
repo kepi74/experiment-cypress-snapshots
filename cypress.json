@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://dev.fakturaonline.cz",
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ]
+}

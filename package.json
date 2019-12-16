@@ -1,8 +1,13 @@
 {
   "name": "experiment-cypress-snapshots",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:kepi74/experiment-cypress-snapshots.git",
   "author": "Pavel Kepka <kepi@kepi.name>",
-  "license": "MIT"
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "cypress": "^3.8.0",
+    "cypress-plugin-snapshots": "^1.2.9"
+  }
 }
