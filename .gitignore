@@ -1,4 +1,6 @@
 cypress/**/__image_snapshots__
+data.js
+
 cypress/**/videos
 cypress/**/screenshots
 

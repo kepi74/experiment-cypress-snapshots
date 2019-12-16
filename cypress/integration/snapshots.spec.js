@@ -1,10 +1,7 @@
+import data from '../../data';
+
 describe('snapshot tests', () => {
   it('iterates data and correctly creates snapshots', () => {
-    /**
-     * Array of { user: '...', pass: '...' } entries.
-     */
-    const data = [];
-
     data.forEach(item => {
       cy.visit('/prihlaseni')
         .then(() => {
